@@ -1,0 +1,7 @@
+@import url(main.css);
+
+.container {
+    margin: 40px 60px;
+    border: 1px solid #FFFFFF;
+    background-color: var(--background-background-color);
+}
