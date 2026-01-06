@@ -4,6 +4,16 @@
 }
 
 @font-face {
+    font-family: "ExtraLight-N";
+    src: url(/fonts/Nunito-ExtraLight.ttf);
+}
+
+@font-face {
     font-family: "SemiBold-N";
     src: url(/fonts/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Regular-N";
+    src: url(/fonts/Nunito-Regular.ttf);
 }

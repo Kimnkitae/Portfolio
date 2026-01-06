@@ -1,12 +1,12 @@
 @import url(main.css);
 
 .container {
+    display: flex;
+    justify-content: space-between;
     margin: 40px 60px;
+    padding: 30px;
     border: 1px solid #FFFFFF;
     background-color: var(--background-background-color);
-    padding: 30px;
-    display: flex;
-    gap: 440px;
 }
 
 .logo {
@@ -15,20 +15,100 @@
     gap: 30px;
 }
 
-.logo-name {
+.logo__name {
     font-family: "ExtraLightItalic-N";
     font-size: 35px;
     letter-spacing: 5px;
     color: var(--text-color);
-    
 }
 
-.logo-description {
+.logo__description {
     font-family: "SemiBold-N";
     font-size: 12px;
     color: var(--text-color);
 }
 
+.header {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header__menu-link {
+    font-size: 20px;
+    font-family: "Regular-N";
+    color: var(--text-color);
+}
+
 .about-text {
-    font-size: 14px;
+    font-family: "Regular-N";
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.experience {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.experience-college {
+    display: flex;
+    gap: 100px;
+}
+
+.experience-college__year-p {
+    font-size: 16px;
+    font-family: "Regular-N";
+    color: var(--text-color);
+}
+
+.experience-college__description-top-p {
+    font-size: 16px;
+    font-family: "Regular-N";
+    color: var(--text-color);
+}
+
+.experience-college__description-bottom-p {
+    font-size: 12px;
+    font-family: "ExtraLight-N";
+    color: var(--text-color);
+}
+
+.experience-college__description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projects-cerebra {
+    display: flex;
+    gap: 50px;
+}
+
+.projects-cerebra__description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projects-cerebra__description-top {
+    display: flex;
+    gap: 5px;
+}
+
+.projects-cerebra__description-top-p {
+    font-size: 16px;
+    font-family: "Regular-N";
+    color: var(--text-color);
+}
+
+.projects-cerebra__description-bottom-p {
+    font-size: 12px;
+    font-family: "ExtraLight-N";
+    color: var(--text-color);
 }
