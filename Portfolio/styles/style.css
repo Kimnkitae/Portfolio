@@ -7,6 +7,19 @@
     padding: 30px;
     border: 1px solid #FFFFFF;
     background-color: var(--background-background-color);
+    gap: 0px;
+}
+
+.copyright__text {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-right: 60px;
+    letter-spacing: 5px;
+    font-family: "Light-N";
+    font-size: 10px;
+    color: #ababab;
+    top: 40px;
 }
 
 .logo {
@@ -45,6 +58,14 @@
     color: var(--text-color);
 }
 
+.header__menu-experience {
+    opacity: 0.4;
+}
+
+.header__menu-projects {
+    opacity: 0.4;
+}
+
 .about-text {
     font-family: "Regular-N";
     font-size: 16px;
@@ -54,6 +75,7 @@
 .experience {
     padding-top: 100px;
     padding-bottom: 120px;
+    opacity: 0.4;
 }
 
 .experience-college {
@@ -88,6 +110,7 @@
 .projects-cerebra {
     display: flex;
     gap: 50px;
+    opacity: 0.4;
 }
 
 .projects-cerebra__description {

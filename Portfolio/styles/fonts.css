@@ -4,6 +4,12 @@
 }
 
 @font-face {
+    font-family: "Light-N";
+    src: url(/fonts/Nunito-Light.ttf);
+}
+
+
+@font-face {
     font-family: "ExtraLight-N";
     src: url(/fonts/Nunito-ExtraLight.ttf);
 }
