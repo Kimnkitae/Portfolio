@@ -6,7 +6,7 @@
     margin: 40px 60px;
     padding: 30px;
     border: 1px solid #FFFFFF;
-    background-color: var(--background-background-color);
+    background-color: var(--background-color);
     gap: 0px;
 }
 
@@ -64,6 +64,12 @@
 
 .header__menu-projects {
     opacity: 0.4;
+}
+
+.footer__menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .about-text {
@@ -134,4 +140,10 @@
     font-size: 12px;
     font-family: "ExtraLight-N";
     color: var(--text-color);
+}
+
+/* ANIMATIONS */
+
+.footer__menu-img:hover {
+    opacity: 0.7;
 }

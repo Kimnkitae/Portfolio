@@ -10,8 +10,9 @@
     --background-color: #161616;
     --background-background-color: #525252;
     --text-color: #FFFFFF;
+    --purple: #5A2278;
 }
 
 body {
-    background-color: var(--background-color);
+    background-color: var(--purple);
 }
