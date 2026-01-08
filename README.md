@@ -17,4 +17,4 @@ That's it! You don't need to install anything.
 ## Author
 Instagram: mainworkitae
 Telegram: @max7c 
-Email address: mainworkkitae@gmail.com
+Email address: kimnkitae@gmail.com
