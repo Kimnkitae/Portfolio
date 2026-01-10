@@ -147,3 +147,17 @@
 .footer__menu-img:hover {
     opacity: 0.7;
 }
+
+.header__menu-experience:hover {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.header__menu-projects:hover {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.container:hover {
+    background-size: 1px;
+}
